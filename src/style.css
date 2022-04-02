@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('./Lato-Regular.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+.hello {
+    color: red;
+    background: url("./MePhoto.jpg");
+    font-family: "Lato-Regular";
+  }
