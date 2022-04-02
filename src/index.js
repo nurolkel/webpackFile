@@ -1,15 +1,19 @@
 // import your function
 import _ from 'lodash'
-
+import printMe from './print';
 
 function component() {
     const element = document.createElement('div');
-
+    const btn = document.createElement('button');
   // use your function!
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('hello')
 
-  // add image to exisiting div 
+
+    btn.innerHTML = 'Click me and check the console!';
+    btn.onclick = printMe;
+
+    element.appendChild(btn);
+
   
 
     
